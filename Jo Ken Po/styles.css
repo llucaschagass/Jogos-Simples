@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.game-title {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.game-area {
+    display: flex;
+    gap: 10px;
+}
+
+.choice {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #ff8133;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.choice:hover {
+    background-color: #ff6200;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
